@@ -1,3 +1,17 @@
 <p>event works!</p>
 
 <button (click)="handleEvent($event)" class="event-btn">Click Event</button>
+<button (mouseenter)="handleEvent($event)" class="event-btn">Mouseenter Event</button>
+<button (mouseleave)="handleEvent($event)" class="event-btn">MouseLeave Event</button>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<input type="text" 
+(input)="inputEvent($event)"
+(focus)="inputEvent($event)"
+(blur)="inputEvent($event)"
+name="user">
