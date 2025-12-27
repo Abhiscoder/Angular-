@@ -6,11 +6,12 @@ import { profile } from './profile/profile';
 import { Counter } from './counter/counter';
 import { Eventt } from './eventt/eventt';
 import { Getset } from './getset/getset';
+import { Ifelse } from './ifelse/ifelse';
 
 @Component({
   selector: 'app-root',
   // imports: [RouterOutlet],
-  imports: [Login, Signup, profile, Counter, Eventt, Getset],
+  imports: [Login, Signup, profile, Counter, Eventt, Getset, Ifelse],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
