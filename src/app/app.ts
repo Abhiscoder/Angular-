@@ -12,5 +12,14 @@ import { profile } from './profile/profile';
   styleUrl: './app.css',
 })
 export class App {
-  protected readonly title = 'Abhishek';
+  handleClick(){
+    console.log("Function called")
+    this.otherfunction()
+  }
+
+
+  otherfunction(){
+    console.log("otherfunction called")
+  }
+
 }
