@@ -4,11 +4,12 @@ import { Login } from './login/login';
 import { Signup } from './signup/signup';
 import { profile } from './profile/profile';
 import { Counter } from './counter/counter';
+import { Eventt } from './eventt/eventt';
 
 @Component({
   selector: 'app-root',
   // imports: [RouterOutlet],
-  imports: [Login, Signup, profile, Counter],
+  imports: [Login, Signup, profile, Counter, Eventt],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
