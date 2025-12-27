@@ -3,23 +3,22 @@ import { RouterOutlet } from '@angular/router';
 import { Login } from './login/login';
 import { Signup } from './signup/signup';
 import { profile } from './profile/profile';
+import { Counter } from './counter/counter';
 
 @Component({
   selector: 'app-root',
   // imports: [RouterOutlet],
-  imports: [Login, Signup, profile],
+  imports: [Login, Signup, profile, Counter],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
 export class App {
-  handleClick(){
-    console.log("Function called")
-    this.otherfunction()
+  handleClick() {
+    console.log('Function called');
+    this.otherfunction();
   }
 
-
-  otherfunction(){
-    console.log("otherfunction called")
+  otherfunction() {
+    console.log('otherfunction called');
   }
-
 }
